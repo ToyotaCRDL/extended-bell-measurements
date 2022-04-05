@@ -1,0 +1,6 @@
+token: 'your_token'
+provider: 
+    hub: 'ibm-q'
+    group: 'open'
+    project: 'main'
+backend: 'ibmq_santiago'
