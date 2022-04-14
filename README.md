@@ -5,7 +5,7 @@
 
 pyXBM efficiently evaluates $<\psi_0|A|\psi_1>$ for arbitrary $A\in\mathbb{C}^{2^n\times2^n}$ and $|\psi_0>,|\psi_1>\in\mathbb{C}^{2^n}$ by reducing the number of unique quantum circuits required.
 
-Paper: https://arxiv.org/abs/2110.09735
+Paper: https://quantum-journal.org/papers/q-2022-04-13-688/
 
 ## Requirements
 
@@ -60,19 +60,24 @@ for loop in range(nb_loops):
 If you find it useful to use this module in your research, please cite the following paper.
 
 ```
-Ruho Kondo, Yuki Sato, Satoshi Koide, Seiji Kajita and Hideki Takamatsu, Computationally Efficient Quantum Expectation with Extended Bell Measurements, arXiv preprint arXiv:2110.09735, (2021).
+Kondo, R., Sato, Y., Koide, S., Kajita, S. and Takamatsu, H., Computationally Efficient Quantum Expectation with Extended Bell Measurements, Quantum, Vol.6, (2022), p.688.
 ```
 
 In Bibtex format:
  
 ```bibtex
-@article{kondo2021xbm,
-  title   = {Computationally Efficient Quantum Expectation with Extended Bell Measurements},
-  author  = {Kondo, Ruho and Sato, Yuki and Koide, Satoshi and Kajita, Seiji and Takamatsu, Hideki},
-  journal = {arXiv preprint arXiv:2110.09735},
-  volume  = {},
-  pages   = {},
-  year    = {2021},
+@article{Kondo2022computationally,
+  doi = {10.22331/q-2022-04-13-688},
+  url = {https://doi.org/10.22331/q-2022-04-13-688},
+  title = {Computationally {E}fficient {Q}uantum {E}xpectation with {E}xtended {B}ell {M}easurements},
+  author = {Kondo, Ruho and Sato, Yuki and Koide, Satoshi and Kajita, Seiji and Takamatsu, Hideki},
+  journal = {{Quantum}},
+  issn = {2521-327X},
+  publisher = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+  volume = {6},
+  pages = {688},
+  month = apr,
+  year = {2022}
 }
 ```
 
